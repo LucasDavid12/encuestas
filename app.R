@@ -57,14 +57,14 @@ ui <- dashboardPage(
                                       
                                       tabName = "rank", 
                                       tabBox(id = "t1", width = 15,
-                                             tabPanel(title = strong("Julio"), value = 'filter_ran', withLoader(plotOutput("plot_rank", height ="800"), type="html", loader="dnaspin")))),
+                                             tabPanel(title = strong("Intención de votos"), value = 'filter_ran', withLoader(plotOutput("plot_rank", height ="800"), type="html", loader="dnaspin")))),
                                     tabItem(
                                       
                                       #pestaña de ranking
                                       
                                       tabName = "imagen", 
                                       tabBox(id = "t2", width = 15,
-                                             tabPanel(title = strong("Julio"), value = 'filter_img', withLoader(plotOutput("plot_emo", height ="800"), type="html", loader="dnaspin"))))
+                                             tabPanel(title = strong("Imagen"), value = 'filter_img', withLoader(plotOutput("plot_emo", height ="800"), type="html", loader="dnaspin"))))
                                    
                                     
                                     
